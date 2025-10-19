@@ -11,11 +11,13 @@ Elegant introduction to the restaurant brand with a full-screen hero image and o
 
 ## Homescreen (main menu screen)
 Displays all menu items (Starters, Mains, Desserts, Beverages).
+
 Each item includes:
 1. Image
 2. Description
 3. Category
 4. Price
 5. Flavor intensity
+
 Users can remove individual items.
 Includes an “Add New Item” button that navigates to the management screen.
