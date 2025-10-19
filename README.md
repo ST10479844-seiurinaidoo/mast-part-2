@@ -21,3 +21,4 @@ Each item includes:
 
 Users can remove individual items.
 Includes an “Add New Item” button that navigates to the management screen.
+
