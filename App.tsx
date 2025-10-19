@@ -310,3 +310,157 @@ export default function App() {
     </NavigationContainer>
   );
 }
+const styles = StyleSheet.create({
+  // 🏛️ Welcome Screen
+  welcomeContainer: { flex: 1, backgroundColor: "#1c1b1a" },
+  heroImage: { width: "100%", height: "100%", position: "absolute" },
+  overlay: {
+    flex: 1,
+    backgroundColor: "rgba(0,0,0,0.55)",
+    justifyContent: "center",
+    alignItems: "center",
+    paddingHorizontal: 30,
+  },
+  welcomeTitle: {
+    color: "#f5f0e6",
+    fontSize: 34,
+    fontWeight: "700",
+    textAlign: "center",
+    marginBottom: 10,
+  },
+  welcomeText: {
+    color: "#d5c8b8",
+    fontSize: 16,
+    textAlign: "center",
+    marginBottom: 30,
+  },
+  startButton: {
+    backgroundColor: "#b2946b",
+    paddingVertical: 14,
+    paddingHorizontal: 40,
+    borderRadius: 30,
+  },
+  startText: { color: "#1c1b1a", fontWeight: "bold", fontSize: 18 },
+
+  // 🍽️ Main Screen
+  container: { flex: 1, backgroundColor: "#f9f6f1", padding: 15 },
+  mainTitle: {
+    fontSize: 28,
+    fontWeight: "800",
+    color: "#3b2e2a",
+    textAlign: "center",
+  },
+  subtitle: {
+    textAlign: "center",
+    color: "#7a6a58",
+    marginBottom: 15,
+    fontSize: 15,
+  },
+
+  // 🥂 Cards
+  card: {
+    backgroundColor: "#fffdf8",
+    borderRadius: 18,
+    marginVertical: 10,
+    overflow: "hidden",
+    shadowColor: "#000",
+    shadowOpacity: 0.15,
+    shadowRadius: 5,
+    elevation: 5,
+  },
+  cardImage: { width: "100%", height: 220 },
+  cardContent: { padding: 15 },
+  cardTitle: { fontSize: 20, fontWeight: "700", color: "#3b2e2a" },
+  cardDesc: { color: "#5a4d42", fontSize: 14, marginVertical: 5 },
+  cardMeta: { color: "#8f816f", fontSize: 13 },
+
+  removeButton: {
+    backgroundColor: "#8b1e1e",
+    padding: 10,
+    borderRadius: 8,
+    alignItems: "center",
+    marginTop: 10,
+  },
+  removeText: { color: "#fff", fontWeight: "bold" },
+
+  addButton: {
+    backgroundColor: "#3b2e2a",
+    borderRadius: 30,
+    paddingVertical: 16,
+    alignItems: "center",
+    marginTop: 10,
+    marginBottom: 20,
+    elevation: 4,
+  },
+  addText: { color: "#f5f0e6", fontSize: 18, fontWeight: "bold" },
+
+  // 🪶 Form Section
+  formContainer: { backgroundColor: "#f4f1ea", padding: 20 },
+  formHeader: {
+    fontSize: 24,
+    color: "#3b2e2a",
+    fontWeight: "bold",
+    textAlign: "center",
+    marginBottom: 20,
+  },
+  input: {
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    borderColor: "#bfa888",
+    borderWidth: 1,
+    paddingHorizontal: 12,
+    height: 50,
+    justifyContent: "center",
+    marginVertical: 8,
+  },
+
+  // 🍷 Picker
+  pickerWrapper: { marginVertical: 10 },
+  label: {
+    fontSize: 15,
+    fontWeight: "600",
+    color: "#3b2e2a",
+    marginBottom: 6,
+    marginLeft: 4,
+  },
+  pickerContainer: {
+    borderWidth: 1,
+    borderColor: "#bfa888",
+    borderRadius: 10,
+    backgroundColor: "#fff",
+    height: 50,
+    justifyContent: "center",
+    overflow: "hidden",
+  },
+  pickerStyle: {
+    height: 50,
+    width: "100%",
+    color: "#3b2e2a",
+    fontSize: 15,
+    paddingHorizontal: 10,
+    marginTop: Platform.OS === "ios" ? -6 : -2,
+  },
+
+  // 📸 Image
+  imagePreview: {
+    width: "100%",
+    height: 220,
+    borderRadius: 15,
+    marginTop: 15,
+    shadowColor: "#000",
+    shadowOpacity: 0.2,
+    shadowRadius: 5,
+  },
+
+  // 💾 Buttons
+  saveButton: {
+    backgroundColor: "#3b2e2a",
+    padding: 15,
+    borderRadius: 10,
+    marginTop: 15,
+    alignItems: "center",
+  },
+  saveButtonText: { color: "#f5f0e6", fontWeight: "bold", fontSize: 16 },
+  cancelButton: { alignItems: "center", marginTop: 10 },
+  cancelButtonText: { color: "#7a6a58", fontWeight: "bold" },
+});
