@@ -53,11 +53,28 @@ Automatically assigns Intensity based on price ranges:
 
 
 
-## UI & Styling
+## UI & Styling:
 
 ## Color Palette:
 1. Deep brown tones (#3b2e2a, #4b2b2b) — for luxury and warmth.
 2. Cream and beige (#f5f0e6, #d5c8b8) — for elegance and comfort.
 3. Gold accent (#b2946b) — to symbolize fine dining sophistication.
+
+## Typography: 
+1. Clean sans-serif fonts emphasizing clarity and readability.
+2. Hierarchical font sizes for titles, descriptions, and metadata.
+
+## Layout Design:
+1. Fully responsive using SafeAreaView, ScrollView, and KeyboardAvoidingView.
+2. Consistent spacing, rounded corners, and elevation for depth.
+
+## Developer Information:
+Author: Seiuri Naidoo
+Institution: Varsity College
+Qualification: Higher Certificate in Mobile Application & Web Development
+Year: 2025
+Developed Using: Visual Studio Code
+“A digital fine dining experience — crafted with code, creativity, and class.”
+5. Gold accent (#b2946b) — to symbolize fine dining sophistication.
 
 ##
