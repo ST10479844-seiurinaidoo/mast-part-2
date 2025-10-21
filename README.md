@@ -69,12 +69,11 @@ Automatically assigns Intensity based on price ranges:
 2. Consistent spacing, rounded corners, and elevation for depth.
 
 ## Developer Information:
-Author: Seiuri Naidoo
-Institution: Varsity College
-Qualification: Higher Certificate in Mobile Application & Web Development
-Year: 2025
-Developed Using: Visual Studio Code
-“A digital fine dining experience — crafted with code, creativity, and class.”
-5. Gold accent (#b2946b) — to symbolize fine dining sophistication.
+1. Author: Seiuri Naidoo
+2. Institution: Varsity College
+3. Qualification: Higher Certificate in Mobile Application & Web Development
+4. Year: 2025
+5. Developed Using: Visual Studio Code
 
-##
+“A digital fine dining experience — crafted with code, creativity, and class.”
+
